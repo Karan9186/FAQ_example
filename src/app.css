@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.ques_con {
+  /* padding: 20px 20px; */
+  /* background-color: grey; */
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.8s;
+}
+
+.continaer {
+  background-color: rgba(0, 128, 0, 0.132);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn_ques {
+  width: 100%;
+  text-align: left;
+  padding: 10px 10px;
+  border: none;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  transition: 0.8s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ans_p {
+  transition: 0.8s;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+margin: 0;
+border-bottom: 2px solid grey;
+border-left: 2px solid grey;
+border-right: 2px solid grey;
+  transform: scaleY(0);
+  padding: 0px;
+  /* border-radius: 10px; */
+height: 0px;
+}
+
+.d_block {
+  /* display: block; */
+  top: 0px;
+  height: auto !important;
+  /* z-index: 100; */
+  padding: 20px 20px;
+  transform: scaleY(1);
+  /* margin-top:10px; */
+  transition: 0.2s;
+  /* position: relative; */
+}
+.continaer1{
+  background-color: rgba(213, 210, 210, 0.454);
+  backdrop-filter: blur(10px);
+  padding:10px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
